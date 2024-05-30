@@ -1,0 +1,22 @@
+{
+  "name": "opencmf/workerman",
+  "description": "Workerman extend for OpenCMF",
+  "type": "library",
+  "keywords": ["php", "OpenCMF","Workerman"],
+  "license": "MIT",
+  "homepage": "https://opencmf.makun.com",
+  "authors": [
+    {
+      "name": "Makun",
+      "email": "code@makun.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "opencmf\\workerman\\": "src/"
+    },
+    "files": [
+      "src/include.php"
+    ]
+  }
+}
